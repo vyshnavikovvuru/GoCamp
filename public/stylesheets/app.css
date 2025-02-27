@@ -1,0 +1,206 @@
+#cluster-map {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
+/* Center the form container */
+.new-campground-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form Heading */
+.new-campground-title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.new-campground-form input,
+.new-campground-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.new-campground-form button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.new-campground-form button:hover {
+    background: #4cae4c;
+}
+body {
+    background: url('https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-position: center 50px;
+   
+}
+
+h1.text-center {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white; /* Bright yellow color */
+    text-shadow: 3px 3px 6px rgba(31, 29, 29, 0.7); /* Strong shadow for emphasis */
+   
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.custom-file-label {
+    background-color: white;
+}
+
+
+/* Global Styles */
+body {
+    background: url('https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form container */
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+
+        background: #ffffff; /* Solid white background */
+     /* Slight transparency for a soft look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Form Heading */
+.form-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.form-container input,
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #4cae4c;
+}
+
+/* Back Link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Image Thumbnails */
+.img-thumbnail {
+    max-width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Checkbox for Deleting Images */
+.delete-checkbox {
+    margin-left: 5px;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Input Fields */
+.form-control {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
