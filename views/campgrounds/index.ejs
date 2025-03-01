@@ -34,7 +34,7 @@
     const maptilerApiKey = '<%- process.env.MAPTILER_API_KEY %>';
 </script>
 <script>
-    const campgrounds = <%- JSON.stringify(campgrounds) %>;
+    const campgrounds = JSON.parse(<%- JSON.stringify(campgrounds) %>);
     console.log("📌 Campgrounds Data in EJS:", campgrounds);
 </script>
 
