@@ -119,7 +119,7 @@
     const mapTilerAPI = "<%= process.env.MAPTILER_API_KEY %>";
     
     try {
-        const campground = JSON.parse(<%- JSON.stringify(campground) %>);
+        const campground = <%- JSON.stringify(campground) %>;
 
     console.log("Loaded Campground Data:", campground); // Debugging
 
